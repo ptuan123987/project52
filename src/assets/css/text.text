@@ -1,0 +1,40 @@
+text trong css : 
+    - color : màu cho chữ
+
+cách hiển thị đoạn text :
+    - Mỗi chữ cái : dãy bit
+    - fonts : là tập hợp hình ảnh của các chữ cái
+    - line-height : độ cao của dòng chữ.
+    - các chữ cái nằm giữa dòng chữ theo chiều dọc
+    - letter-spacing :khoảng cách giữa các chữ cái(dấu cách là 1 chữ cái)
+    - 
+
+dòng chữ : lớn hơn độ cao của chữ 
+    - gồm các dòng chữ xếp sát nhau theo chiều dọc
+    - làm thế nào để chúng ta làm sát các inline elements 
+    - các inline elements được đối xử như text (có thể căn giữa như text)
+
+để các elements sát với nhau : 
+
+    - các thẻ li là block-elements nhưng khi dùng display:inline-block (inline) thì nó thành các inline-element và được đối xử như text
+    - c1 : để thẻ cha là font-size : 0px; tùy đặt thẻ con (font-size : 16px;)
+căn giữa element : 
+    - display : inline , inline-block;
+căn giữa theo chiều dọc : 
+    - đặt line-height , height cùng giá trị
+    - align-item : center; 
+
+* Các trạng thái của element 
+    - hover : khi di chuột vào thì 
+
+drop down menu : 
+    - hover thằng cha sẽ hover thằng con
+    - nên hover thằng cha trước
+focus : con trỏ chuột đang nằm ở đó
+active :khi href link đến trang hiện tại
+visited : trạng thái đã được xem
+pseudo : các thành phần phụ do css tạo ra
+    - before : thêm trước element bất kì cái gì
+    - after : thêm sau vào các element bất kì cái gì
+    - giống hệt như các element
+    - luôn luôn có content (thường là content = "")

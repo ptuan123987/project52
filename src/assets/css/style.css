@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+body {
+    font-family: helvetica, arial, sans-serif;
+    font-size: 16px;
+    color: rgb(227, 233, 234);
+    line-height: 1.8;
+}
+
+
+/* layout */
+
+#footer {
+    margin: 30px auto;
+    background-color: rgb(50, 92, 106);
+    width: 1200px;
+}
+
+#footer .inner {
+    display: flex;
+    justify-content: space-between;
+    padding: 64px;
+    border-bottom: 0.5px solid rgb(130, 127, 127);
+}
+
+#footer .inner .about-us {
+    flex-grow: 1;
+    /* width: 300px; */
+}
+
+#footer .inner .about-us p {
+    width: 300px;
+    font-size: 15px;
+}
+
+#footer .inner h3 {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+#footer .inner .links-list {
+    flex-grow: 1;
+}
+
+#footer .inner .links-list li a {
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(227, 233, 234);
+    height: 36px;
+    padding-left: 16px;
+    font-size: 15px;
+}
+
+#footer .inner .links-list li a::before {
+    display: inline-block;
+    content: "";
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    background-color: rgb(227, 233, 234);
+    margin-right: 16px;
+}
+
+#footer .inner .follow-us {
+    flex-grow: 1;
+}
+
+#footer .inner .follow-us li a {
+    text-decoration: none;
+}
+
+#footer .inner .follow-us li a i {
+    display: inline-block;
+    font-size: 20px;
+    color: rgb(227, 233, 234);
+    border: 1px solid transparent;
+    height: 49px;
+    width: 49px;
+    line-height: 49px;
+    text-align: center;
+}
+
+.facebook a i {
+    background-color: rgb(52, 152, 219);
+}
+
+.google a i {
+    background-color: rgb(231, 76, 60);
+}
+
+.twitter a i {
+    background-color: #2c3e50;
+}
+
+.linkedin a i {
+    background-color: rgb(52, 152, 219);
+}
+
+#footer .inner .follow-us li {
+    display: inline-block;
+}
+
+#footer .inner .follow-us li a i:hover {
+    background-color: #fff;
+    color: rgb(124, 123, 123);
+}
+
+#footer div {
+    padding-right: 50px;
+}
+
+#footer .copyright {
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-size: 15px;
+}
